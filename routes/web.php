@@ -33,3 +33,15 @@ Route::get('/testmodel2', function () {
     $query = App\Siswa::all();
     return $query;
 });
+
+Route::get('/about', function () {
+    return view ('about');
+});
+
+Route::get('/tugas', function () {
+    return view ('kata');
+});
+
+Route::get('/tugas1', function () {
+    return view ('sambutan');
+});
